@@ -1,0 +1,170 @@
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #111;
+  color: #fff;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+h3 a.button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+h3 a.button:hover {
+  background-color: #555;
+}
+
+h3 a.button:active {
+  position: relative;
+  top: 1px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+table {
+  background-color: #222;
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 60%;
+}
+
+th,
+td {
+  border: 0.5px solid #fff;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+}
+
+select {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-position: right center;
+  padding-right: 24px;
+  background-color: #111;
+  color: #fff;
+}
+
+form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #555;
+}
+
+.date {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+}
+
+input[type="date"] {
+  text-align: center;
+  margin: 10px;
+  padding: 3px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  box-sizing: border-box;
+  background-color: #111;
+  color: #fff;
+}
+
+.dateSubmit {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dateSubmit:hover {
+  background-color: #555;
+}
+
+.dashboard {
+  display: block;
+  right: 0;
+  color: #fff;
+  margin-top: 0px;
+}
