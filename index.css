@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(111, 184, 209);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .contributors {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .contact {
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .contact p {
+    margin: 5px 0;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .login-button, .signup-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 16px 32px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .login-button:hover, .signup-button:hover {
+    background-color: #555;
+  }
+  
